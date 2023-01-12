@@ -1,2 +1,2 @@
-- Redux course - Dave Gray
+- Redux course (RTK Query) - Dave Gray
 - null coalescing operator javascript (??)
