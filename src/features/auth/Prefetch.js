@@ -16,6 +16,6 @@ const Prefetch = () =>{
     }
   },[])
 
-  return Outlet
+  return <Outlet />
 }
 export default Prefetch
