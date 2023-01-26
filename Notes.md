@@ -1,2 +1,3 @@
 - Redux course (RTK Query) - Dave Gray
 - null coalescing operator javascript (??)
+- Render list on checkbox
