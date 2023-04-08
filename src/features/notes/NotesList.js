@@ -19,7 +19,7 @@ const NotesList = () => {
   if (isLoading) content = <p>Loading...</p>
 
   if (isError) {
-    content = <p class="errmsg">{error?.data?.message}</p>
+    content = <p className="errmsg">{error?.data?.message}</p>
   }
 
   if (isSuccess) {
@@ -30,7 +30,7 @@ const NotesList = () => {
       : null
 
     content = (
-      <table class="table table--notes">
+      <table className="table table--notes">
         <thead className="table__thead">
           <tr>
             <th scope="col" className="table__th note__status">Username</th>

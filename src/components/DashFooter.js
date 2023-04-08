@@ -12,14 +12,14 @@ const DashFooter = () => {
   let goHomeButton = null
   if (pathname !== "/dash") {
     goHomeButton = (
-      <button class="dash-footer__button icon-button" title='Home' onClick={onGoHomeButton}>
+      <button className="dash-footer__button icon-button" title='Home' onClick={onGoHomeButton}>
         <FontAwesomeIcon icon={faHouse} />
       </button>
     )
   }
 
   const content = (
-    <footer class="dash-footer">
+    <footer className="dash-footer">
       {goHomeButton}
       <p>Current User:</p>
       <p>Status:</p>

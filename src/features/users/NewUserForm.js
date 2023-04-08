@@ -82,7 +82,7 @@ const NewUserForm = () => {
       <form className="form" onSubmit={onSaveUserClicked}>
         <div className="form__title-rom">
           <h2>New User</h2>
-          <div class="form__action-buttons">
+          <div className="form__action-buttons">
             <button className="icon-button" title="Save" disabled={!canSave}>
               <FontAwesomeIcon icon={faSave} />
             </button>

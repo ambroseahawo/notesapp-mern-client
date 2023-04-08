@@ -8,7 +8,7 @@ const Welcome = () => {
   }).format(date)
 
   const content = (
-    <section class="welcome">
+    <section className="welcome">
       <p>{today}</p>
       <h1>Welcome!</h1>
       <p>
